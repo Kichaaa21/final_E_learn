@@ -1,9 +1,14 @@
+import MetaMask from "./Metamask";
+import Payment from "./Payment";
 
 
 function App() {
-  return (
-    <hw></hw>
-  );
+  return(
+<MetaMask/>  
+
+)
+
 }
+
 
 export default App;
