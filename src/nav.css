@@ -1,0 +1,75 @@
+/* Reset default margin and padding for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#343a40 ;
+    color: #E8E9EB;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the logo */
+  .navbar__logo {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-right: 60%;
+  }
+  
+  /* Style the navigation links */
+  .navbar__links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar__item {
+    margin-right: 20px;
+  }
+  
+  .navbar__item a {
+    
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style the navigation links on hover */
+  .navbar__item a:hover {
+    background-color: #007bff;
+  }
+  
+  /* Add a gradient effect to the active navigation link */
+  .navbar__item a.active {
+    background: linear-gradient(45deg, #007bff, #00adb5);
+  }
+  
+  /* Hide the underline on active navigation link */
+  .navbar__item a.active {
+    text-decoration: none;
+  }
+  
+  /* Add a subtle animation to the logo */
+  .navbar__logo {
+    animation: fadeIn 1.5s ease;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

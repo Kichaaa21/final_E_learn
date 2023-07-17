@@ -4,10 +4,9 @@ import Payment from "./Payment";
 
 function App() {
   return(
-<MetaMask/>  
+<MetaMask/>
 
 )
-
 }
 
 

@@ -1,0 +1,68 @@
+/* Reset default margin and padding for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  
+  /* Style the header */
+  .header {
+    background-color: #000904;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    .header {
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)}
+    height: 20px;
+  }
+  
+  /* Style the search bar container */
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+  }
+  
+  .search-container input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+    outline: none;
+    border-color: #08192b;
+  }
+  
+  .search-container button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #e9efef;
+    border: none;
+    margin-left: 10px;
+    color: #0a0a0a;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-container button:hover {
+    background-color: #007bff;
+  }
+  
+  /* Style the profile page link */
+  .profile-link a {
+    text-decoration: none;
+    color: #0a0a0a;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #e9efef;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-link a:hover {
+    background-color: #007bff;
+  }
+  
