@@ -115,7 +115,7 @@ function MetaMask() {
     }
 
     try {
-      // Make the RPC call (example: get the latest block number)
+      // Mathe RPC call (example: get the latest block number)
       const blockNumber = await web3.eth.getBlockNumber();
 
       // Process the output as needed
